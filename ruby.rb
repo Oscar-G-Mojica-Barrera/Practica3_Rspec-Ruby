@@ -1,15 +1,14 @@
-def intro array
+def intro (array)
     #escribir el código
-    return 0 if array.empty?
     array.sum
 end
-def nombre nom
-    return "vacio" if nom.empty?
-    #escribir el código
-    "hello #{nom.capitalize}"
 
+def nombre (nom)
+    #escribir el código
+    nom.empty? ? "vacío" : "hello #{nom.capitalize}"
 end
-def datos? array
+
+def datos? (array)
     #escribir el código
     array.size> 0
 end
